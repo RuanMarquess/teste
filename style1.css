@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Preenche a altura da tela */
+  }
+  
+  .container {
+    text-align: left; /* Alinha o texto à esquerda */
+    position: relative;
+    left: 14%;
+    
+  }
+  
+  h1 {
+    font-size: 4rem; /* Tamanho grande para o texto */
+    line-height: 1.2; /* Espaçamento entre linhas */
+    margin: 0 0 20px; /* Espaçamento inferior */
+    position: relative;
+    right: 159%;
+  }
+  
+  .acessar-button {
+    background-color: black; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 50px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    cursor: pointer; /* Cursor de clique */
+    transition: all 0.3s ease; /* Animação suave */
+    position: relative;
+    right: 159%;
+    
+  }
+  
+  .acessar-button:hover {
+    background-color: white; /* Fundo branco ao passar o mouse */
+    color: black; /* Texto preto ao passar o mouse */
+  }
+  
+  img{
+    position: relative;
+    left: 28%;
+    width:22%;
+  }
+
+  .login-button:hover{
+    background-color: white; /* Fundo branco ao passar o mouse */
+    color: black; /* Texto preto ao passar o mouse */
+  }
+
+  .login-button{
+    background-color: black; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 50px; /* Bordas arredondadas */
+    padding: 10px 22px; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    cursor: pointer; /* Cursor de clique */
+    transition: all 0.3s ease; /* Animação suave */
+    position: relative;
+    right: 155%;
+  }
+
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Tamanho menor para telas pequenas */
+    }
+
+    .acessar-button {
+        font-size: 0.9rem; /* Tamanho menor para o botão */
+        padding: 8px 16px; /* Ajusta o padding do botão */
+    }
+
+
+    .login-button {
+        font-size: 0.9rem; /* Tamanho menor para o botão */
+        padding: 8px 16px; /* Ajusta o padding do botão */
+    }
+
+    img {
+        max-width: 100%; /* Em telas grandes, a imagem pode ocupar no máximo 100% da largura do elemento pai */
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Evita espaços extras ao redor da imagem */
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+
+    .container {
+        padding: 10px; /* Adiciona padding ao contêiner */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem; /* Tamanho ainda menor para smartphones */
+    }
+
+    .acessar-button {
+        font-size: 1rem; /* Tamanho maior para o botão em smartphones */
+        padding: 10px 20px; /* Aumenta o padding para facilitar o toque */
+    }
+    .login-button {
+        font-size: 0.9rem; /* Tamanho menor para o botão */
+        padding: 8px 16px; /* Ajusta o padding do botão */
+    }
+
+    img {
+        max-width: 80%; /* Em celulares, a imagem ocupará até 80% da largura da tela */
+        height: auto;
+    }
+
+}
+
+  
+
+
+  
